@@ -8,9 +8,9 @@ function App() {
       lg: `"nav nav" "aside main"` // large devices are those which are wider than 1024 px
     }}>
       <GridItem area="nav"><NavBar/></GridItem>
-      <GridItem area="main" bg="dodgerblue">main</GridItem>
+      <GridItem area="main" >main</GridItem>
       <Show above="lg">
-      <GridItem area="aside" bg="gold">aside</GridItem>
+      <GridItem area="aside" >aside</GridItem>
       </Show>
       
     </Grid>
