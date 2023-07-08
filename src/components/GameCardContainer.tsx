@@ -7,7 +7,7 @@ interface Props {
 const GameCardContainer = ({children}: Props) => {
   return (
     // when rendered Box ( primitive component in chakra returns a div)
-    <Box width ="300px" borderRadius={10} overflow='hidden'> 
+    <Box width ="100%" borderRadius={10} overflow='hidden'> 
     {children}
     </Box>
   )
